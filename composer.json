@@ -17,11 +17,7 @@
 		"contao/core":">=3.5.1,<5",
 		"contao-community-alliance/composer-plugin": "~2.0"
 	},
-	"replace": {
-		"contao-legacy/weatherGET": "*"
-	},
 
-	
 	"extra":{
 		"contao": {
 			"sources":{
@@ -31,7 +27,7 @@
 				"system/modules/weather-get/config/runonce.php"
 			]
 		}
-		
+
 	},
 	"prefer-stable": true,
 	"minimum-stability": "dev"
